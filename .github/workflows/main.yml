@@ -13,4 +13,5 @@ jobs:
         with:
           python-version: "3.10.6"
       - run: python test.py
+      inputs: 1 
       - run: python test1.py
