@@ -16,4 +16,4 @@ record=record[::-1]
 # record.append(time.time()-start)
 with open("list_2.pkl","wb") as f:
     pickle.dump(record,f)
-print("end")
+print("hello world")
