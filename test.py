@@ -7,9 +7,9 @@ n=10**3
 test=sys.argv[1:];
 
 if test[0] == "main":
-    print("main")
+    print("1","main")
 elif test[0] == "sub":
-    print("sub")
+    print("2","sub")
 else:
     raise
 # record.append(time.time()-start)
