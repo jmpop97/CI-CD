@@ -10,5 +10,5 @@ test=sys.argv[1:];
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
 
-print("try",test)
+print("3.141592",test)
 
