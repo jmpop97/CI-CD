@@ -10,4 +10,4 @@ test=sys.argv[1:];
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
 
-print("fail",test)
+print("fail000",test)
