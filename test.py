@@ -9,4 +9,5 @@ test=sys.argv[1:];
 # record.append(time.time()-start)
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
+
 print("fail",test)
