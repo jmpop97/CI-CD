@@ -5,6 +5,7 @@ N=10**5
 n=10**3
 
 test=sys.argv[1:];
+
 if test[0] == "main":
     print("main")
 elif test[0] == "sub":
@@ -15,4 +16,4 @@ else:
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
 
-print("d to main",test)
+print("3.141592",test)
