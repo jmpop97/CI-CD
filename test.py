@@ -16,5 +16,5 @@ else:
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
 
-print("target s",test)
+print("target s10",test)
 
