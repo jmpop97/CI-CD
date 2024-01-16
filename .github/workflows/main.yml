@@ -6,9 +6,12 @@ on:
       branches: [main]
   pull_request_target:
       branches: [main]
+      types: [labeled]
 jobs:
-  python-hello-world:
+  build:
+    name: test
     runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'safe to test')
     steps:
       - uses: actions/checkout@v2
         with:
