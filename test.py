@@ -16,4 +16,4 @@ else:
 with open("list_5.pkl","wb") as f:
     pickle.dump(test,f)
 
-print("3.141592123",test)
+print("target",test)
