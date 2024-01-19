@@ -1,9 +1,5 @@
 name: pr_test_code
 on:
-  push:
-      branches: [main] 
-  pull_request:
-      branches: [main]
   pull_request_target:
       branches: [main]
       types: [labeled]
